@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7310A021B92A1EE00FC7B6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A011B92A1EE00FC7B6F /* main.m */; };
+		F7310A051B92A1EE00FC7B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A041B92A1EE00FC7B6F /* AppDelegate.m */; };
+		F7310A081B92A1EE00FC7B6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A071B92A1EE00FC7B6F /* ViewController.m */; };
+		F7310A0B1B92A1EE00FC7B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7310A091B92A1EE00FC7B6F /* Main.storyboard */; };
+		F7310A0D1B92A1EE00FC7B6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7310A0C1B92A1EE00FC7B6F /* Images.xcassets */; };
+		F7310A101B92A1EE00FC7B6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7310A0E1B92A1EE00FC7B6F /* LaunchScreen.xib */; };
+		F7310A1C1B92A1EE00FC7B6F /* CrazyMinionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A1B1B92A1EE00FC7B6F /* CrazyMinionsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7310A161B92A1EE00FC7B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F73109F41B92A1EE00FC7B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73109FB1B92A1EE00FC7B6F;
+			remoteInfo = CrazyMinions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F73109FC1B92A1EE00FC7B6F /* CrazyMinions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyMinions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7310A001B92A1EE00FC7B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7310A011B92A1EE00FC7B6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7310A031B92A1EE00FC7B6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7310A041B92A1EE00FC7B6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7310A061B92A1EE00FC7B6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7310A071B92A1EE00FC7B6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7310A0A1B92A1EE00FC7B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7310A0C1B92A1EE00FC7B6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7310A0F1B92A1EE00FC7B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F7310A151B92A1EE00FC7B6F /* CrazyMinionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyMinionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7310A1A1B92A1EE00FC7B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7310A1B1B92A1EE00FC7B6F /* CrazyMinionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyMinionsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73109F91B92A1EE00FC7B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7310A121B92A1EE00FC7B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F73109F31B92A1EE00FC7B6F = {
+			isa = PBXGroup;
+			children = (
+				F73109FE1B92A1EE00FC7B6F /* CrazyMinions */,
+				F7310A181B92A1EE00FC7B6F /* CrazyMinionsTests */,
+				F73109FD1B92A1EE00FC7B6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F73109FD1B92A1EE00FC7B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73109FC1B92A1EE00FC7B6F /* CrazyMinions.app */,
+				F7310A151B92A1EE00FC7B6F /* CrazyMinionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F73109FE1B92A1EE00FC7B6F /* CrazyMinions */ = {
+			isa = PBXGroup;
+			children = (
+				F7310A031B92A1EE00FC7B6F /* AppDelegate.h */,
+				F7310A041B92A1EE00FC7B6F /* AppDelegate.m */,
+				F7310A061B92A1EE00FC7B6F /* ViewController.h */,
+				F7310A071B92A1EE00FC7B6F /* ViewController.m */,
+				F7310A091B92A1EE00FC7B6F /* Main.storyboard */,
+				F7310A0C1B92A1EE00FC7B6F /* Images.xcassets */,
+				F7310A0E1B92A1EE00FC7B6F /* LaunchScreen.xib */,
+				F73109FF1B92A1EE00FC7B6F /* Supporting Files */,
+			);
+			path = CrazyMinions;
+			sourceTree = "<group>";
+		};
+		F73109FF1B92A1EE00FC7B6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7310A001B92A1EE00FC7B6F /* Info.plist */,
+				F7310A011B92A1EE00FC7B6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7310A181B92A1EE00FC7B6F /* CrazyMinionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7310A1B1B92A1EE00FC7B6F /* CrazyMinionsTests.m */,
+				F7310A191B92A1EE00FC7B6F /* Supporting Files */,
+			);
+			path = CrazyMinionsTests;
+			sourceTree = "<group>";
+		};
+		F7310A191B92A1EE00FC7B6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7310A1A1B92A1EE00FC7B6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F73109FB1B92A1EE00FC7B6F /* CrazyMinions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7310A1F1B92A1EE00FC7B6F /* Build configuration list for PBXNativeTarget "CrazyMinions" */;
+			buildPhases = (
+				F73109F81B92A1EE00FC7B6F /* Sources */,
+				F73109F91B92A1EE00FC7B6F /* Frameworks */,
+				F73109FA1B92A1EE00FC7B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyMinions;
+			productName = CrazyMinions;
+			productReference = F73109FC1B92A1EE00FC7B6F /* CrazyMinions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7310A141B92A1EE00FC7B6F /* CrazyMinionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7310A221B92A1EE00FC7B6F /* Build configuration list for PBXNativeTarget "CrazyMinionsTests" */;
+			buildPhases = (
+				F7310A111B92A1EE00FC7B6F /* Sources */,
+				F7310A121B92A1EE00FC7B6F /* Frameworks */,
+				F7310A131B92A1EE00FC7B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7310A171B92A1EE00FC7B6F /* PBXTargetDependency */,
+			);
+			name = CrazyMinionsTests;
+			productName = CrazyMinionsTests;
+			productReference = F7310A151B92A1EE00FC7B6F /* CrazyMinionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F73109F41B92A1EE00FC7B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = bihongbo;
+				TargetAttributes = {
+					F73109FB1B92A1EE00FC7B6F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F7310A141B92A1EE00FC7B6F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F73109FB1B92A1EE00FC7B6F;
+					};
+				};
+			};
+			buildConfigurationList = F73109F71B92A1EE00FC7B6F /* Build configuration list for PBXProject "CrazyMinions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F73109F31B92A1EE00FC7B6F;
+			productRefGroup = F73109FD1B92A1EE00FC7B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73109FB1B92A1EE00FC7B6F /* CrazyMinions */,
+				F7310A141B92A1EE00FC7B6F /* CrazyMinionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73109FA1B92A1EE00FC7B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7310A0B1B92A1EE00FC7B6F /* Main.storyboard in Resources */,
+				F7310A101B92A1EE00FC7B6F /* LaunchScreen.xib in Resources */,
+				F7310A0D1B92A1EE00FC7B6F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7310A131B92A1EE00FC7B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F73109F81B92A1EE00FC7B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7310A081B92A1EE00FC7B6F /* ViewController.m in Sources */,
+				F7310A051B92A1EE00FC7B6F /* AppDelegate.m in Sources */,
+				F7310A021B92A1EE00FC7B6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7310A111B92A1EE00FC7B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7310A1C1B92A1EE00FC7B6F /* CrazyMinionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7310A171B92A1EE00FC7B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73109FB1B92A1EE00FC7B6F /* CrazyMinions */;
+			targetProxy = F7310A161B92A1EE00FC7B6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7310A091B92A1EE00FC7B6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7310A0A1B92A1EE00FC7B6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7310A0E1B92A1EE00FC7B6F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7310A0F1B92A1EE00FC7B6F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7310A1D1B92A1EE00FC7B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7310A1E1B92A1EE00FC7B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7310A201B92A1EE00FC7B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazyMinions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7310A211B92A1EE00FC7B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazyMinions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7310A231B92A1EE00FC7B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrazyMinionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyMinions.app/CrazyMinions";
+			};
+			name = Debug;
+		};
+		F7310A241B92A1EE00FC7B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrazyMinionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyMinions.app/CrazyMinions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F73109F71B92A1EE00FC7B6F /* Build configuration list for PBXProject "CrazyMinions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7310A1D1B92A1EE00FC7B6F /* Debug */,
+				F7310A1E1B92A1EE00FC7B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7310A1F1B92A1EE00FC7B6F /* Build configuration list for PBXNativeTarget "CrazyMinions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7310A201B92A1EE00FC7B6F /* Debug */,
+				F7310A211B92A1EE00FC7B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7310A221B92A1EE00FC7B6F /* Build configuration list for PBXNativeTarget "CrazyMinionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7310A231B92A1EE00FC7B6F /* Debug */,
+				F7310A241B92A1EE00FC7B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F73109F41B92A1EE00FC7B6F /* Project object */;
+}

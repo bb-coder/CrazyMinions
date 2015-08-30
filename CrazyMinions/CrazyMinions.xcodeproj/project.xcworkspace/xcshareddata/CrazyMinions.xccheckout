@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95202186-2610-4D57-81CA-38160E0F2AF0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E026892BF71C29E2C85E7EF26DB649A59BA4FFA</key>
+		<string>github.com:bb-coder/CrazyMinions.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CrazyMinions/CrazyMinions.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E026892BF71C29E2C85E7EF26DB649A59BA4FFA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:bb-coder/CrazyMinions.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E026892BF71C29E2C85E7EF26DB649A59BA4FFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E026892BF71C29E2C85E7EF26DB649A59BA4FFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CrazyYellowMan</string>
+		</dict>
+	</array>
+</dict>
+</plist>
