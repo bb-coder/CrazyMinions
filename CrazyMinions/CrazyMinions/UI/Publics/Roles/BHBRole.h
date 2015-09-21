@@ -88,4 +88,6 @@ typedef enum : NSUInteger {
 
 -(instancetype)initWithRoleType:(BHBRoleType)roleType;
 
++ (NSDictionary *)roleToImageDict;
+
 @end

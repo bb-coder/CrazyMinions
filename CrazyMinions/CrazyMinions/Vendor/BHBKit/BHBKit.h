@@ -27,4 +27,5 @@ FOUNDATION_EXPORT const unsigned char BHBKitVersionString[];
 #import "NSJSONSerialization+BHB.h"
 #import "NSDate+BHB.h"
 #import "UIBarButtonItem+BHB.h"
+#import "UIColor+hexColor.h"
 

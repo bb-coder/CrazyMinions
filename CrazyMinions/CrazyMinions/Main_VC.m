@@ -8,9 +8,11 @@
 
 #import "Main_VC.h"
 #import "BHBRoleView.h"
+#import "BHBScaleMoveTransition.h"
+#import "BHBGameCollectionVC.h"
 
 
-@interface Main_VC ()
+@interface Main_VC ()<UIViewControllerTransitioningDelegate>
 /** 最开始的那只小黄人 */
 @property (weak, nonatomic) IBOutlet BHBRoleView *startV;
 /** 格鲁说的话 */
@@ -90,15 +92,22 @@
 
 #pragma mark 点击开始按钮
 - (void)nextAction:(UIButton *)btn{
-    
-    [UIView animateWithDuration:.7 animations:^{
-        self.view.center = CGPointMake(self.view.center.x - 10 * (self.nextBtn.center.x - self.view.center.x), self.view.center.y - 10 * (self.nextBtn.center.y - self.view.center.y));
-        self.view.transform = CGAffineTransformMakeScale(10, 10);
-        self.view.alpha = 0;
-    } completion:^(BOOL finished) {
+    BHBGameCollectionVC *vc = [[BHBGameCollectionVC alloc]init];
+    vc.transitioningDelegate = self;
+    [self presentViewController:vc animated:YES completion:^{
         
     }];
+
     
 }
+
+-(id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source{
+    BHBScaleMoveTransition * transitionAnimation = [[BHBScaleMoveTransition alloc]init];
+    transitionAnimation.touchPoint = self.nextBtn.center;
+    return transitionAnimation;
+}
+
+
+
 
 @end

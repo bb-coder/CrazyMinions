@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71C2F9C1B999C7A00750D02 /* BHBMagicMoveInvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F71C2F9B1B999C7A00750D02 /* BHBMagicMoveInvertTransition.m */; };
+		F71C2FA01B9B27C600750D02 /* GameBase_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = F71C2F9F1B9B27C600750D02 /* GameBase_VC.m */; };
 		F7310A021B92A1EE00FC7B6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A011B92A1EE00FC7B6F /* main.m */; };
 		F7310A051B92A1EE00FC7B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A041B92A1EE00FC7B6F /* AppDelegate.m */; };
 		F7310A081B92A1EE00FC7B6F /* Main_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A071B92A1EE00FC7B6F /* Main_VC.m */; };
@@ -28,6 +30,17 @@
 		F7310A661B93125B00FC7B6F /* UITextField+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A561B93125B00FC7B6F /* UITextField+BHB.m */; };
 		F7310A671B93125B00FC7B6F /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A581B93125B00FC7B6F /* UIView+AutoLayout.m */; };
 		F7310A681B93125B00FC7B6F /* UIView+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7310A5A1B93125B00FC7B6F /* UIView+BHB.m */; };
+		F74BE2CA1BA7E99000841BB0 /* BHBBubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = F74BE2C91BA7E99000841BB0 /* BHBBubbleSort.m */; };
+		F74BE2CD1BA7E9A500841BB0 /* BHBSort.m in Sources */ = {isa = PBXBuildFile; fileRef = F74BE2CC1BA7E9A500841BB0 /* BHBSort.m */; };
+		F74BE30C1BA8FDD600841BB0 /* BHBGameDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74BE30B1BA8FDD600841BB0 /* BHBGameDetailView.m */; };
+		F798940C1B9FC8BC00B4407F /* BHBAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = F798940B1B9FC8BC00B4407F /* BHBAlgorithm.m */; };
+		F798940F1B9FF91B00B4407F /* BHBBarrelSort.m in Sources */ = {isa = PBXBuildFile; fileRef = F798940E1B9FF91B00B4407F /* BHBBarrelSort.m */; };
+		F7E2E5521B97CED500B6A144 /* BHBScaleMoveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2E5511B97CED500B6A144 /* BHBScaleMoveTransition.m */; };
+		F7E2E5571B9827DE00B6A144 /* BHBGameCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2E5561B9827DE00B6A144 /* BHBGameCollectionVC.m */; };
+		F7E2E55B1B994E2E00B6A144 /* BHBGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2E55A1B994E2E00B6A144 /* BHBGameCell.m */; };
+		F7E2E55E1B99532900B6A144 /* UIColor+hexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2E55D1B99532900B6A144 /* UIColor+hexColor.m */; };
+		F7F2BAA21B998640007EA226 /* BHBMagicMoveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2BAA11B998640007EA226 /* BHBMagicMoveTransition.m */; };
+		F7F2BAA71B998803007EA226 /* BHBSortGame_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2BAA61B998803007EA226 /* BHBSortGame_VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F71C2F9A1B999C7A00750D02 /* BHBMagicMoveInvertTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBMagicMoveInvertTransition.h; sourceTree = "<group>"; };
+		F71C2F9B1B999C7A00750D02 /* BHBMagicMoveInvertTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBMagicMoveInvertTransition.m; sourceTree = "<group>"; };
+		F71C2F9E1B9B27C600750D02 /* GameBase_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBase_VC.h; sourceTree = "<group>"; };
+		F71C2F9F1B9B27C600750D02 /* GameBase_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBase_VC.m; sourceTree = "<group>"; };
 		F73109FC1B92A1EE00FC7B6F /* CrazyMinions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyMinions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7310A001B92A1EE00FC7B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7310A011B92A1EE00FC7B6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +102,28 @@
 		F7310A5A1B93125B00FC7B6F /* UIView+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHB.m"; sourceTree = "<group>"; };
 		F7310A5C1B93125B00FC7B6F /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		F7310A5D1B93125B00FC7B6F /* BHBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBKit.h; sourceTree = "<group>"; };
+		F74BE2C81BA7E99000841BB0 /* BHBBubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBBubbleSort.h; sourceTree = "<group>"; };
+		F74BE2C91BA7E99000841BB0 /* BHBBubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBBubbleSort.m; sourceTree = "<group>"; };
+		F74BE2CB1BA7E9A500841BB0 /* BHBSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBSort.h; sourceTree = "<group>"; };
+		F74BE2CC1BA7E9A500841BB0 /* BHBSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBSort.m; sourceTree = "<group>"; };
+		F74BE30A1BA8FDD600841BB0 /* BHBGameDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBGameDetailView.h; sourceTree = "<group>"; };
+		F74BE30B1BA8FDD600841BB0 /* BHBGameDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBGameDetailView.m; sourceTree = "<group>"; };
+		F798940A1B9FC8BC00B4407F /* BHBAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBAlgorithm.h; sourceTree = "<group>"; };
+		F798940B1B9FC8BC00B4407F /* BHBAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBAlgorithm.m; sourceTree = "<group>"; };
+		F798940D1B9FF91B00B4407F /* BHBBarrelSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBBarrelSort.h; sourceTree = "<group>"; };
+		F798940E1B9FF91B00B4407F /* BHBBarrelSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBBarrelSort.m; sourceTree = "<group>"; };
+		F7E2E5501B97CED500B6A144 /* BHBScaleMoveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBScaleMoveTransition.h; sourceTree = "<group>"; };
+		F7E2E5511B97CED500B6A144 /* BHBScaleMoveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBScaleMoveTransition.m; sourceTree = "<group>"; };
+		F7E2E5551B9827DE00B6A144 /* BHBGameCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBGameCollectionVC.h; sourceTree = "<group>"; };
+		F7E2E5561B9827DE00B6A144 /* BHBGameCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBGameCollectionVC.m; sourceTree = "<group>"; };
+		F7E2E5591B994E2E00B6A144 /* BHBGameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBGameCell.h; sourceTree = "<group>"; };
+		F7E2E55A1B994E2E00B6A144 /* BHBGameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBGameCell.m; sourceTree = "<group>"; };
+		F7E2E55C1B99532900B6A144 /* UIColor+hexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexColor.h"; sourceTree = "<group>"; };
+		F7E2E55D1B99532900B6A144 /* UIColor+hexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexColor.m"; sourceTree = "<group>"; };
+		F7F2BAA01B998640007EA226 /* BHBMagicMoveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBMagicMoveTransition.h; sourceTree = "<group>"; };
+		F7F2BAA11B998640007EA226 /* BHBMagicMoveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBMagicMoveTransition.m; sourceTree = "<group>"; };
+		F7F2BAA51B998803007EA226 /* BHBSortGame_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBSortGame_VC.h; sourceTree = "<group>"; };
+		F7F2BAA61B998803007EA226 /* BHBSortGame_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBSortGame_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +144,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F71C2F9D1B9B27B200750D02 /* GameBase */ = {
+			isa = PBXGroup;
+			children = (
+				F74BE3091BA8FDBD00841BB0 /* Views */,
+				F71C2F9E1B9B27C600750D02 /* GameBase_VC.h */,
+				F71C2F9F1B9B27C600750D02 /* GameBase_VC.m */,
+			);
+			name = GameBase;
+			path = GameCollection/Models/GameBase;
+			sourceTree = "<group>";
+		};
 		F73109F31B92A1EE00FC7B6F = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +176,7 @@
 		F73109FE1B92A1EE00FC7B6F /* CrazyMinions */ = {
 			isa = PBXGroup;
 			children = (
+				F79894091B9FC8A800B4407F /* Algorithms */,
 				F7310A3F1B92D8B200FC7B6F /* Categorys */,
 				F7310A311B92AA1500FC7B6F /* UI */,
 				F7310A2F1B92A9EA00FC7B6F /* Vendor */,
@@ -246,6 +297,9 @@
 		F7310A311B92AA1500FC7B6F /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F71C2F9D1B9B27B200750D02 /* GameBase */,
+				F7F2BAA31B9987EA007EA226 /* SortGame */,
+				F7E2E5531B9827B100B6A144 /* GameCollection */,
 				F7310A331B92ABBA00FC7B6F /* Publics */,
 				F7310A251B92A8B600FC7B6F /* Main */,
 			);
@@ -313,6 +367,8 @@
 				F7310A581B93125B00FC7B6F /* UIView+AutoLayout.m */,
 				F7310A591B93125B00FC7B6F /* UIView+BHB.h */,
 				F7310A5A1B93125B00FC7B6F /* UIView+BHB.m */,
+				F7E2E55C1B99532900B6A144 /* UIColor+hexColor.h */,
+				F7E2E55D1B99532900B6A144 /* UIColor+hexColor.m */,
 			);
 			path = BHBCategorys;
 			sourceTree = "<group>";
@@ -325,12 +381,95 @@
 			path = BHBCommon;
 			sourceTree = "<group>";
 		};
+		F74BE3091BA8FDBD00841BB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F74BE30A1BA8FDD600841BB0 /* BHBGameDetailView.h */,
+				F74BE30B1BA8FDD600841BB0 /* BHBGameDetailView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F79894091B9FC8A800B4407F /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				F798940A1B9FC8BC00B4407F /* BHBAlgorithm.h */,
+				F798940B1B9FC8BC00B4407F /* BHBAlgorithm.m */,
+				F798940D1B9FF91B00B4407F /* BHBBarrelSort.h */,
+				F798940E1B9FF91B00B4407F /* BHBBarrelSort.m */,
+				F74BE2C81BA7E99000841BB0 /* BHBBubbleSort.h */,
+				F74BE2C91BA7E99000841BB0 /* BHBBubbleSort.m */,
+				F74BE2CB1BA7E9A500841BB0 /* BHBSort.h */,
+				F74BE2CC1BA7E9A500841BB0 /* BHBSort.m */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
 		F7D13ECC1B935A6F0070F0B0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F7E2E5501B97CED500B6A144 /* BHBScaleMoveTransition.h */,
+				F7E2E5511B97CED500B6A144 /* BHBScaleMoveTransition.m */,
 			);
 			name = Models;
 			path = Utils/Models;
+			sourceTree = "<group>";
+		};
+		F7E2E5531B9827B100B6A144 /* GameCollection */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2BA9F1B998624007EA226 /* Models */,
+				F7E2E5581B994E1700B6A144 /* Views */,
+				F7E2E5541B9827BE00B6A144 /* Controllers */,
+			);
+			path = GameCollection;
+			sourceTree = "<group>";
+		};
+		F7E2E5541B9827BE00B6A144 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7E2E5551B9827DE00B6A144 /* BHBGameCollectionVC.h */,
+				F7E2E5561B9827DE00B6A144 /* BHBGameCollectionVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F7E2E5581B994E1700B6A144 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7E2E5591B994E2E00B6A144 /* BHBGameCell.h */,
+				F7E2E55A1B994E2E00B6A144 /* BHBGameCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7F2BA9F1B998624007EA226 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2BAA01B998640007EA226 /* BHBMagicMoveTransition.h */,
+				F7F2BAA11B998640007EA226 /* BHBMagicMoveTransition.m */,
+				F71C2F9A1B999C7A00750D02 /* BHBMagicMoveInvertTransition.h */,
+				F71C2F9B1B999C7A00750D02 /* BHBMagicMoveInvertTransition.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7F2BAA31B9987EA007EA226 /* SortGame */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2BAA41B9987F2007EA226 /* Controllers */,
+			);
+			name = SortGame;
+			path = GameCollection/Models/SortGame;
+			sourceTree = "<group>";
+		};
+		F7F2BAA41B9987F2007EA226 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2BAA51B998803007EA226 /* BHBSortGame_VC.h */,
+				F7F2BAA61B998803007EA226 /* BHBSortGame_VC.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,20 +576,33 @@
 			files = (
 				F7310A641B93125B00FC7B6F /* UIImage+BHB.m in Sources */,
 				F7310A5F1B93125B00FC7B6F /* NSDate+BHB.m in Sources */,
+				F7E2E5521B97CED500B6A144 /* BHBScaleMoveTransition.m in Sources */,
 				F7310A651B93125B00FC7B6F /* UIScreen+BHB.m in Sources */,
 				F7310A621B93125B00FC7B6F /* UIBarButtonItem+BHB.m in Sources */,
+				F71C2FA01B9B27C600750D02 /* GameBase_VC.m in Sources */,
+				F798940F1B9FF91B00B4407F /* BHBBarrelSort.m in Sources */,
+				F71C2F9C1B999C7A00750D02 /* BHBMagicMoveInvertTransition.m in Sources */,
 				F7310A081B92A1EE00FC7B6F /* Main_VC.m in Sources */,
 				F7310A611B93125B00FC7B6F /* NSString+BHB.m in Sources */,
+				F7F2BAA71B998803007EA226 /* BHBSortGame_VC.m in Sources */,
 				F7310A661B93125B00FC7B6F /* UITextField+BHB.m in Sources */,
 				F7310A681B93125B00FC7B6F /* UIView+BHB.m in Sources */,
+				F74BE30C1BA8FDD600841BB0 /* BHBGameDetailView.m in Sources */,
 				F7310A051B92A1EE00FC7B6F /* AppDelegate.m in Sources */,
+				F7F2BAA21B998640007EA226 /* BHBMagicMoveTransition.m in Sources */,
 				F7310A421B92D8CE00FC7B6F /* UIFont+LanTing.m in Sources */,
 				F7310A601B93125B00FC7B6F /* NSJSONSerialization+BHB.m in Sources */,
 				F7310A671B93125B00FC7B6F /* UIView+AutoLayout.m in Sources */,
+				F7E2E55E1B99532900B6A144 /* UIColor+hexColor.m in Sources */,
 				F7310A371B92B35500FC7B6F /* BHBRole.m in Sources */,
+				F74BE2CD1BA7E9A500841BB0 /* BHBSort.m in Sources */,
 				F7310A021B92A1EE00FC7B6F /* main.m in Sources */,
+				F7E2E5571B9827DE00B6A144 /* BHBGameCollectionVC.m in Sources */,
 				F7310A631B93125B00FC7B6F /* UIButton+BHB.m in Sources */,
+				F798940C1B9FC8BC00B4407F /* BHBAlgorithm.m in Sources */,
 				F7310A3A1B92CA7400FC7B6F /* BHBRoleView.m in Sources */,
+				F7E2E55B1B994E2E00B6A144 /* BHBGameCell.m in Sources */,
+				F74BE2CA1BA7E99000841BB0 /* BHBBubbleSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
